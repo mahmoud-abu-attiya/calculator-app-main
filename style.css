@@ -1,0 +1,178 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    :root{
+        --main--color: hsl(222, 26%, 31%);
+        --kt--color:hsl(223, 31%, 20%);
+        --screen--color:hsl(224, 36%, 15%);
+        --krdB--color:hsl(225, 21%, 49%);
+        --ksh--color:hsl(224, 28%, 35%);
+        --kBT--color:hsl(6, 63%, 50%);
+        --kesh--color:hsl(6, 70%, 34%);
+        --kB--color:hsl(30, 25%, 89%);
+        --kNsh--color:hsl(28, 16%, 65%);
+        --kN--color:hsl(221, 14%, 31%);
+        --color:hsl(0, 0%, 100%);
+        --bta3:#fff;
+    }
+    
+    body {
+        font-family: 'Spartan', sans-serif;
+        background-color:var(--main--color);
+    }
+    
+    .main {
+        width: 364px;
+        margin: 40px auto;
+        color: var(--color);
+    }
+    
+    .thead {
+        width: 80%;
+        display: inline-block;
+    }
+    
+    .text {
+        font-size: 25px;
+        display: inline-block;
+    }
+    
+    .th-t {
+        float: right;
+        font-size: 11px;
+        margin-top: 15px;
+    }
+    
+    .switch-btn-n {
+        float: right;
+        font-size: 11px;
+        letter-spacing: 9px;
+    }
+    
+    .contai {
+        width: 45px;
+        height: 15px;
+        background-color: var(--kt--color);
+        border-radius: 8px;
+        padding: 3px;
+        cursor: pointer;
+        text-align: center;
+    }
+    
+    .point,.marg-auto,.marg-left {
+        height: 9px;
+        width: 9px;
+        background-color: var(--kBT--color);
+        border-radius: 50%;
+        position: relative;
+    }
+    .marg-auto{
+        left:15px;
+    }
+    .marg-left{
+        left:30px;
+    }
+    
+    label {
+        position: relative;
+        width: 100%;
+        height:85px;
+        background-color: var(--screen--color);
+        border: none;
+        border-radius: 10px;
+        outline: none;
+        font-size: 32px;
+        padding-top:8px;
+        text-align: right;
+        margin: 20px 0;
+        font-weight: 700;
+        display: inline-block;
+    }
+    #inp {
+        width: 100%;
+        height:50px;
+        background-color:transparent;
+        border: none;
+        border-radius: 10px;
+        outline: none;
+        color: var(--color);
+        font-size: 30px;
+        padding: 15px;
+        text-align: right;
+        margin: 20px 0;
+        font-weight: 700;
+    }
+    .history{
+        position: absolute;
+        top:10px;
+        right:10px;
+        color:#757575;
+        font-size: 10px;
+    }
+    
+    .btns {
+        background-color: var(--kt--color);
+        border-radius: 10px;
+        padding: 15px;
+    }
+    
+    .btns button {
+        display: inline-block;
+        width: 60px;
+        height: 35px;
+        background-color: var(--kB--color);
+        margin: 10px;
+        color: var(--kN--color);
+        text-align: center;
+        padding-top: 8px;
+        border-radius: 6px;
+        font-size: 20px;
+        cursor: pointer;
+        box-shadow: 0px 2px 0px 1px var(--kNsh--color);
+        border: none;
+        outline: none;
+        font-family: 'Spartan', sans-serif;
+    }
+    
+    .btns button:active {
+        box-shadow: none;
+    }
+    
+    .btns .reset {
+        width: 43%;
+        color: var(--bta3);
+        background-color: var(--krdB--color);
+        box-shadow: 0px 2px 0px 1px var(--ksh--color);
+        font-size: 15px;
+        padding-top: 11px;
+    }
+    
+    .btns .equal {
+        width: 43%;
+        background-color: var(--kBT--color);
+        color: var(--bta3);
+        box-shadow: 0px 2px 0px 1px var(--kesh--color);
+    }
+    
+    .btns .del {
+        color: var(--bta3);
+        background-color: var(--krdB--color);
+        box-shadow: 0px 2px 0px 1px var(--ksh--color);
+        font-size: 15px;
+        padding-top: 11px;
+    }
+    
+    footer {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 50px;
+        text-align: center;
+        background-color: var(--screen--color);
+        color: rgb(99, 99, 99);
+        padding: 15px;
+    }
