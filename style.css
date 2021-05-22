@@ -176,3 +176,14 @@
         color: rgb(99, 99, 99);
         padding: 15px;
     }
+
+    @media(max-width:410px){
+        .main{
+            width:280px;
+        }
+        .btns button {
+            width:45px;
+            height:35px;
+            margin:7px 7px 15px 7px;
+        }
+    }
